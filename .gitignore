@@ -1,0 +1,14 @@
+# Bỏ qua các thư mục cache của Python
+__pycache__/
+*.pyc
+
+# Bỏ qua môi trường ảo (nếu có tạo trong thư mục này)
+venv/
+env/
+.env
+
+# (Tùy chọn) Bỏ qua file model nếu nó quá nặng (trên 100MB)
+# Nếu file best.pt và resnet_cbam_final.pth của bạn nhẹ hơn 100MB, 
+# bạn CÓ THỂ xóa 2 dòng dưới đây để tải cả model lên cho tiện.
+ models/*.pt
+ models/*.pth
